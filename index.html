@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fa">
+  <meta name="description" content="Ville Mattila: verkkosivut alkaen 299 €, ajanvaraus ja verkkokaupat sekä AI-ratkaisut yrityksille. Vuoden ylläpito ja päivitykset mukaan verkkosivutoteutuksiin.">
+  <title>Ville Mattila | Verkkosivut, ajanvaraus ja AI-ratkaisut</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#sisalto">Siirry sisältöön</a>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#alku" aria-label="Ville Mattila, etusivu"><span class="brand-symbol" aria-hidden="true">vm<span>.</span></span><span>Ville Mattila</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Valikko <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="Päävalikko">
+        <a href="#hinnasto">Palvelut &amp; hinnat</a><a href="#ai">AI-ratkaisut</a><a href="#kysymykset">Usein kysyttyä</a>
+        <a class="button button-small button-dark" href="#yhteys">Pyydä tarjous <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="sisalto">
+    <section class="hero container" id="alku">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true"></span> Verkkopalvelut yrityksille</p>
+        <h1>Verkkosivut.<br>Ajanvaraus.<br><span>AI-ratkaisut.</span></h1>
+        <p class="hero-intro">Yrityksesi palvelut esille, ajanvaraukset verkkoon ja toistuvat työt automaattisiksi. Suunnittelu ja toteutus samalta tekijältä.</p>
+        <div class="hero-actions"><a class="button button-blue" href="#hinnasto">Katso palvelut ja hinnat <span aria-hidden="true">↗</span></a><a class="plain-link" href="#yhteys">Ota yhteyttä</a></div>
+        <p class="hero-price">Verkkosivut <strong>alkaen 299 €</strong> <span>+ alv</span></p>
+      </div>
+      <div class="showcase">
+        <div class="showcase-top"><span class="preview-caption">Sivusto tarpeesi mukaan</span><span aria-hidden="true">↗</span></div>
+        <div class="preview-tabs" role="tablist" aria-label="Sivustoesimerkit">
+          <button id="tab-site" role="tab" aria-selected="true" aria-controls="preview-site" tabindex="0" type="button">Verkkosivut</button>
+          <button id="tab-booking" role="tab" aria-selected="false" aria-controls="preview-booking" tabindex="-1" type="button">Ajanvaraus</button>
+          <button id="tab-shop" role="tab" aria-selected="false" aria-controls="preview-shop" tabindex="-1" type="button">Verkkokauppa</button>
+        </div>
+        <div class="browser-frame">
+          <div class="browser-bar"><span class="browser-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>yrityksesi.fi</span><span aria-hidden="true">↗</span></div>
+          <div class="preview-panel" id="preview-site" role="tabpanel" aria-labelledby="tab-site">
+            <div class="mini-nav"><b>OMA YRITYS<span>®</span></b><span>Palvelut &nbsp; Yhteys</span></div>
+            <div class="mini-site-content"><div><p class="mini-eyebrow">YRITYKSESI VERKOSSA</p><h2>Palvelusi.<br>Selkeästi<br>esillä.</h2><span class="mini-cta">Tutustu palveluihin ↗</span></div><div class="mini-architecture" aria-hidden="true"><div class="arch arch-back"></div><div class="arch arch-front"></div><div class="arch-shadow"></div></div></div>
+            <div class="mini-service-row"><span>Palvelut</span><span>Yrityksestä</span><span>Yhteydenotto</span></div>
+          </div>
+          <div class="preview-panel" id="preview-booking" role="tabpanel" aria-labelledby="tab-booking" hidden>
+            <div class="mini-nav"><b>OMA YRITYS<span>®</span></b><span>Ajanvaraus</span></div>
+            <div class="mini-booking"><p class="mini-eyebrow">VARAUSKALENTERI</p><h2>Valitse sinulle<br>sopiva aika.</h2><div class="week-row"><span>Ma<b>12</b></span><span>Ti<b>13</b></span><span class="chosen">Ke<b>14</b></span><span>To<b>15</b></span><span>Pe<b>16</b></span></div><div class="time-row"><span>9.00</span><span class="chosen">10.30</span><span>13.00</span></div><p class="mini-footnote">Palvelu, aika ja varaus samassa paikassa.</p></div>
+          </div>
+          <div class="preview-panel" id="preview-shop" role="tabpanel" aria-labelledby="tab-shop" hidden>
+            <div class="mini-nav"><b>OMA KAUPPA<span>®</span></b><span>Tuotteet &nbsp; Ostoskori</span></div>
+            <div class="mini-shop"><p class="mini-eyebrow">VERKKOKAUPPA</p><h2>Tuotteesi verkkoon.</h2><div class="mini-products"><div><div class="product-art"><div class="bottle"></div></div><b>Tuote</b><span>Tuotetiedot</span></div><div><div class="product-art product-art-alt"><div class="package"></div></div><b>Tuote</b><span>Tuotetiedot</span></div></div></div>
+          </div>
+        </div>
+        <div class="showcase-bottom"><span><svg aria-hidden="true" viewBox="0 0 20 20"><path d="m4 10 4 4 8-8"/></svg> Tietokoneella ja puhelimella</span><small>Havainnekuva</small></div>
+      </div>
+    </section>
+
+    <div class="benefit-strip"><div class="container benefits"><p><span aria-hidden="true">✓</span> Hinta sovitaan ennen aloitusta</p><p><span aria-hidden="true">✓</span> Vuosi ylläpitoa ja päivityksiä</p><p><span aria-hidden="true">✓</span> Suora yhteys tekijään</p></div></div>
+
+    <section class="section container" id="hinnasto">
+      <div class="section-heading"><div><p class="eyebrow">Palvelut &amp; hinnat</p><h2>Mitä sivustosi<br>pitää tehdä?</h2></div><p>Valitse lähtökohta. Sisältö, ominaisuudet ja lopullinen hinta sovitaan ennen toteutusta.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card">
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01M7 13h5M7 16h8"/></svg></span>
+          <h3>Yrityksen verkkosivut</h3><p class="package-description">Palvelut, yrityksen esittely ja yhteystiedot yhdessä sivustossa.</p>
+          <div class="price"><span>alkaen</span><strong>299 <small>€</small></strong><span>+ alv</span></div>
+          <a class="button button-outline" href="#yhteys" data-service="Yrityksen verkkosivut">Pyydä tarjous <span aria-hidden="true">↗</span></a>
+          <ul class="feature-list"><li>Yrityksellesi suunniteltu ilme</li><li>Puhelimelle mukautuva sivusto</li><li>Apua rakenteeseen ja sisältöihin</li><li>Hakukonenäkyvyyden tekninen perusta</li><li>Ylläpito ja päivitykset vuodeksi</li></ul>
+        </article>
+        <article class="price-card featured">
+          <span class="package-badge">Kun asiakkaasi varaa ajan</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v5M17 3v5M3 11h18m-13 5 2 2 5-5"/></svg></span>
+          <h3>Sivut &amp; ajanvaraus</h3><p class="package-description">Verkkosivut, joilta asiakas voi varata palvelullesi ajan.</p>
+          <div class="price"><span>alkaen</span><strong>499 <small>€</small></strong><span>+ alv</span></div>
+          <a class="button button-lime" href="#yhteys" data-service="Sivut ja ajanvaraus">Pyydä tarjous <span aria-hidden="true">↗</span></a>
+          <ul class="feature-list"><li>Yrityksen verkkosivut</li><li>Palveluun sopiva varauskalenteri</li><li>Näkymä varausten hallintaan</li><li>Puhelimella toimiva ajanvaraus</li><li>Ylläpito ja päivitykset vuodeksi</li></ul>
+        </article>
+        <article class="price-card">
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h3l2 12h11l2-8H7M10 20h.01M18 20h.01"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></span>
+          <h3>Verkkokauppa</h3><p class="package-description">Tuotteet asiakkaiden saataville myös verkossa.</p>
+          <div class="price"><span>alkaen</span><strong>599 <small>€</small></strong><span>+ alv</span></div>
+          <a class="button button-outline" href="#yhteys" data-service="Verkkokauppa">Pyydä tarjous <span aria-hidden="true">↗</span></a>
+          <ul class="feature-list"><li>Kaupan ulkoasu ja tuotesivut</li><li>Tuoteryhmät ja ostoskori</li><li>Maksamisen ja toimitusten asetukset</li><li>Tuotteiden ja tilausten hallinta</li><li>Ylläpito ja päivitykset vuodeksi</li></ul>
+        </article>
+      </div>
+      <p class="pricing-note">Hinnat ilman arvonlisäveroa. Verkkotunnus ja mahdolliset ulkopuolisten palvelujen maksut sovitaan erikseen tarjouksessa.</p>
+      <div class="maintenance"><span class="maintenance-icon" aria-hidden="true">↻</span><div><h3>Ensimmäinen vuosi mukana.</h3><p>Kaikkiin verkkosivupaketteihin kuuluu vuoden maksuton sivujen ylläpito ja päivitykset. Jatkon sisältö ja hinta sovitaan erikseen.</p></div></div>
+    </section>
+
+    <section class="extra-services container" aria-label="Muut palvelut">
+      <article class="refresh-card"><p class="eyebrow">Nykyisen sivuston uudistus</p><h2>Onko sivuilla<br>päivityksen paikka?</h2><p>Uudistan vanhan sivuston ilmeen, sisällön ja käytettävyyden. Katsotaan yhdessä, mikä kannattaa säilyttää ja mitä muuttaa.</p><div class="service-bottom"><strong>Hinta tarjouksen mukaan</strong><a class="text-arrow" href="#yhteys" data-service="Verkkosivujen uudistus">Kerro sivustostasi <span aria-hidden="true">↗</span></a></div></article>
+      <article class="ai-card" id="ai"><div class="ai-mark" aria-hidden="true">✳</div><p class="eyebrow">AI-ratkaisut</p><h2>Vähemmän<br>toistuvia tehtäviä.</h2><p>Esimerkiksi kysymyksiin vastaava AI-avustaja tai tietojen käsittelyä nopeuttava automaatio. Toteutus valitaan yrityksesi tarpeen mukaan.</p><div class="service-bottom"><strong>Hinta tarjouksen mukaan</strong><a class="text-arrow" href="#yhteys" data-service="AI-ratkaisut">Kerro tarpeestasi <span aria-hidden="true">↗</span></a></div></article>
+    </section>
+
+    <section class="section container process" id="projekti">
+      <div class="section-heading"><div><p class="eyebrow">Projektin eteneminen</p><h2>Näin päästään alkuun.</h2></div></div>
+      <div class="process-grid"><article><span class="step-label">Tarve &amp; tarjous</span><h3>Kerrot, mitä tarvitset.</h3><p>Käydään läpi sivujen tarkoitus, tarvittavat toiminnot ja sisältö. Saat ehdotuksen hinnasta ja aikataulusta.</p></article><article><span class="step-label">Suunnittelu &amp; toteutus</span><h3>Näet sivut työn aikana.</h3><p>Rakennan sovitun kokonaisuuden. Voit kommentoida ulkoasua ja sisältöä ennen viimeistelyä.</p></article><article><span class="step-label">Julkaisu &amp; ylläpito</span><h3>Sivusto käyttöön.</h3><p>Valmis sivusto julkaistaan. Ensimmäisen vuoden ylläpito ja päivitykset kuuluvat verkkosivupakettiin.</p></article></div>
+    </section>
+
+    <section class="faq-section" id="kysymykset"><div class="container faq-layout"><div><p class="eyebrow">Usein kysyttyä</p><h2>Ennen kuin<br>aloitetaan.</h2><a class="plain-link" href="#yhteys">Kysy lisää <span aria-hidden="true">↗</span></a></div><div class="faq-list">
+      <details open><summary>Mitä 299 euron hintaan kuuluu?<span aria-hidden="true">+</span></summary><p>Yrityksen perustason verkkosivusto, joka esittelee palvelut ja yhteystiedot sekä mukautuu eri näyttöihin. Mukana ovat sivuston ulkoasun ja rakenteen suunnittelu sekä vuoden ylläpito ja päivitykset. Tarkka sisältö sovitaan tarjouksessa, ja hintaan lisätään alv.</p></details>
+      <details><summary>Voiko nykyiset sivuni uudistaa?<span aria-hidden="true">+</span></summary><p>Voi. Lähetä nykyisten sivujesi osoite ja kerro, mitä haluaisit muuttaa. Arvioin kokonaisuuden ja teen ehdotuksen uudistuksesta sekä sen hinnasta.</p></details>
+      <details><summary>Tarvitsenko valmiit tekstit ja kuvat?<span aria-hidden="true">+</span></summary><p>Voit käyttää olemassa olevia materiaalejasi. Aloitukseen riittävät tiedot yrityksestäsi, palveluistasi ja asiakkaistasi. Sovimme yhdessä, mitä sisältöä sivuille tarvitaan ja miten se valmistellaan.</p></details>
+      <details><summary>Mitä tapahtuu ensimmäisen vuoden jälkeen?<span aria-hidden="true">+</span></summary><p>Ylläpidon jatkosta ja hinnoittelusta sovitaan erikseen sivuston toimintojen ja päivitystarpeiden mukaan.</p></details>
+      <details><summary>Kauanko toteutus kestää?<span aria-hidden="true">+</span></summary><p>Aikataulu sovitaan tarjouksen yhteydessä. Siihen vaikuttavat sivuston koko, tarvittavat toiminnot ja sisältöjen valmius.</p></details>
+      <details><summary>Mihin yritykseni voisi käyttää AI:ta?<span aria-hidden="true">+</span></summary><p>Lähtökohtana voi olla aikaa vievä rutiini, kuten tietojen järjestely tai toistuviin kysymyksiin vastaaminen. Käydään ensin läpi käyttötapaus ja arvioidaan, sopiiko siihen AI-ratkaisu.</p></details>
+    </div></div></section>
+
+    <section class="section container contact" id="yhteys">
+      <div class="contact-copy"><p class="eyebrow">Ota yhteyttä</p><h2>Millaisen sivuston<br>sinä tarvitset?</h2><p>Kerro yrityksestäsi ja toivotuista ominaisuuksista. Jos uudistat sivujasi, lisää viestiin niiden osoite.</p><div class="contact-person"><span class="initials" aria-hidden="true">VM</span><div><strong>Ville Mattila</strong><span>Verkkosivut &amp; AI-ratkaisut</span></div></div></div>
+      <form id="contact-form" aria-label="Yhteydenottolomake">
+        <div class="form-row"><div><label for="name">Nimi</label><input id="name" name="name" autocomplete="name" placeholder="Oma nimesi"></div><div><label for="company">Yritys <span>(valinnainen)</span></label><input id="company" name="company" autocomplete="organization" placeholder="Yrityksen nimi"></div></div>
+        <label for="email">Sähköposti</label><input type="email" id="email" name="email" autocomplete="email" placeholder="nimi@yritys.fi">
+        <label for="service">Mistä olet kiinnostunut?</label><select id="service" name="service"><option value="">Valitse palvelu</option><option>Yrityksen verkkosivut</option><option>Sivut ja ajanvaraus</option><option>Verkkokauppa</option><option>Verkkosivujen uudistus</option><option>AI-ratkaisut</option><option>Jokin muu</option></select>
+        <label for="message">Viesti</label><textarea id="message" name="message" rows="4" placeholder="Mitä haluaisit toteuttaa?"></textarea>
+        <button class="button button-blue" type="button" disabled>Lähetys ei vielä käytössä <span aria-hidden="true">↗</span></button><p class="form-note">Lomake on esikatselu. Tietoja ei lähetetä eikä tallenneta.</p>
+      </form>
+    </section>
+  </main>
+  <footer><div class="container footer-inner"><a class="brand" href="#alku"><span class="brand-symbol" aria-hidden="true">vm<span>.</span></span><span>Ville Mattila</span></a><p>Ville Mattila tmi</p><a href="#alku">Takaisin ylös <span aria-hidden="true">↑</span></a></div></footer>
+</body>
+</html>
+
