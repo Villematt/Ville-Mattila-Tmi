@@ -1,4 +1,4 @@
-# Ville Mattila tmi
+# VilleMattilatmi
 
 Yrityksen verkkosivusto, joka on toteutettu HTML:llä, CSS:llä ja JavaScriptillä.
 
