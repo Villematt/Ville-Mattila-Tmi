@@ -1,4 +1,4 @@
-# VilleMattilatmi
+# WaxLineDigital (WLD)
 
 Yrityksen verkkosivusto, joka on toteutettu HTML:llä, CSS:llä ja JavaScriptillä.
 
@@ -20,3 +20,5 @@ Yhteydenottolomake on esikatselu. Se ei lähetä tai tallenna tietoja. Viestien 
 Fontit ladataan Google Fontsista. Jos lataus ei onnistu, sivusto käyttää paikallista varafonttia.
 
 Hinnasto sisältää alkaen-hinnat 299 €, 499 € ja 599 € (+ alv). Verkkosivupaketteihin on merkitty vuoden ylläpito ja päivitykset.
+
+
